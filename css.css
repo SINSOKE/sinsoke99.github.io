@@ -1,0 +1,367 @@
+* {
+
+	box-sizing: border-box;
+}
+
+body {
+
+	margin-top: 0% ;
+	margin-bottom: 0%;
+	background-image: url('tt.jpg');
+  	background-attachment: fixed;
+  	background-size: 100% 100%;
+	overflow: auto;
+	position: relative;
+}
+
+.tgl {
+
+	overflow: hidden;
+	background-color:black;
+	color: white;
+	padding: 10px 12px 12px;
+}
+
+.topnav2 {
+
+	overflow: hidden;
+	background-color:#333;
+	padding: 12px 14px;
+	margin-left:41%;
+	color: white;
+}
+
+.tan{
+
+	width: 50px;
+	hyphens: 50px;
+	float: right;
+	text-align: right;
+}
+
+.topnav {
+
+	overflow: auto;
+	background-color:#333;
+	padding: 14px 16px;
+	color: white;
+}
+
+.topnav2 a {
+
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+.topnav2 a:hover {
+
+	background-color:#ddd;
+	color: white;
+
+}
+
+select {
+
+	overflow: hidden;
+	background-color:#333;
+	padding: 8px 10px;
+	color: white;
+	float: left;
+}
+
+select a {
+
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+select a:hover {
+
+	background-color:#ddd;
+	color: white;
+
+}
+
+button {
+
+	overflow: hidden;
+	background-color:#333;
+	padding: 8px 10px;
+	color: black;
+	float: left;
+}
+
+button a {
+
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+button a:hover {
+
+	background-color:#ddd;
+	color: white;
+
+}
+
+
+.column {
+
+	float: left;
+	background-color: #333;
+	
+}
+
+.column.side {
+
+	width : 10%;
+	background-color: black;
+
+}
+ 
+.column.content2 {
+	
+	width : 100%;
+	background-color: width;
+ 	display: block;
+ 	text-align: left;
+ 	padding: 7px;
+ 	font-size: 20px;
+ 	border: solid;
+}
+
+.column.content2 a {
+
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+.column.content2 a:hover {
+
+	background-color:#ddd;
+	color: white;
+
+}
+
+.column.content {
+	
+	width : 80%;
+	height: 550px;
+	background-color: width;
+ 	display: block;
+ 	text-align: left;
+ 	padding: 7px;
+ 	font-size: 20px;
+ 	border: solid;
+	overflow: auto;
+
+}
+
+.column.menu {
+
+	width : 20%;
+	height: 550px;
+	background-color:#ddd;
+ 	display: block;
+ 	text-align: left;
+ 	padding: 5px;
+ 	font-size: 20px;
+ 	border: solid;
+ 	position: relative;
+}
+
+.column.menu2 {
+
+	width : 100%;
+	height: 90%;
+	background-color:#ddd;
+ 	display: block;
+ 	text-align: left;
+ 	padding: 5px;
+ 	font-size: 20px;
+ 	overflow: auto;
+ 	position: relative;
+}
+
+.colomn.tab{
+
+	height: 20%;
+	width: 20%;
+	text-align: center;
+	background-color: red;
+	position: relative;
+}
+.column.middle {
+
+	width: 80%;
+
+}
+
+.row:after {
+
+	content: "";
+	display: table;
+	clear: both;
+	text-align: center;
+
+}
+
+ .header {
+
+	font-family: Algerian;
+	background-image: url('tt.jpg');
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: 100% 70%;
+	padding: 20px;
+	text-align: center;
+	border: solid;
+
+}
+
+ a {
+
+ 	text-decoration: none;
+ 	color: white;
+
+ }
+
+ p {
+
+ 	color: white;	
+ }
+
+ table {
+ 	color: white;
+ }
+
+ .footer {
+
+	background-color:black;
+	padding: 10px;
+	text-align: center;
+	color: #f2f2f2;
+
+}
+
+th {
+
+	color: white;
+}
+
+b {
+
+	color: white;
+}
+
+.container {
+
+  	overflow: auto;
+  	padding-bottom: 15px;
+  	position: relative;
+}
+
+.filterDiv {
+
+  	float: left;
+  	width: 200px;
+  	height: 300px;
+  	padding: 0px 0px 60px 0px;
+  	text-align: center;
+  	margin: 2px;
+  	border: solid;
+  	display: none;
+  	position: relative;
+}
+
+
+.show {
+
+  	display: block;
+  	position: relative;
+}
+
+
+.btn {
+
+  	border: none;
+  	outline: none;
+  	padding: 20px;
+  	background-color: #f1f1f1;
+  	cursor: pointer;
+  	margin: 0%;
+  	position: relative;
+}
+
+
+.btn:hover {
+
+  	background-color: #ddd;
+}
+
+
+.btn.active {
+
+  	background-color: #666;
+  	color: white;
+}
+
+#myInput {
+
+  	background-position: 10px 12px;
+  	background-repeat: no-repeat;
+  	width: 100%;
+  	font-size: 16px;
+  	padding: 12px 20px 12px 40px;
+  	border: 1px solid #ddd;
+  	margin-bottom: 12px;
+}
+
+#myUL {
+
+  	list-style-type: none;
+  	padding: 0;
+  	margin: 0;
+  	position: relative;
+}
+
+#myUL li a {
+
+  	border: 1px solid #ddd;
+  	margin-top: -1px; /* Prevent double borders */
+  	background-color: #f6f6f6;
+  	padding: 12px;
+  	text-decoration: none;
+  	font-size: 18px;
+  	color: black;
+  	display: block
+
+}
+
+#myUL li a:hover:not(.header) {
+  
+  	background-color: #eee;
+  	position: relative;
+}
+
+.comentar{
+	
+	float: left;
+	padding-bottom: 50px;
+	padding-left: 5%;
+}
