@@ -2,8 +2,8 @@
 	<html lang="en">
 		<head><title>SINSOKE.WEB</title>
 			<link rel="stylesheet" type="text/css" href="css.css">
-				<meta charset="utf-8">
-				<meta name ="viewport" content="widht=device-widht, initial-scale=1">
+				<meta name=”viewport” content=”width=device-width; initial-scale=1.0; maximum-scale=1.0;”>
+        <meta http-equiv=”Content-Type” content=”text/html; charset=utf-8″ />
 	</haed>
 
 	<body>
@@ -28,7 +28,8 @@ document.getElementById("demo").innerHTML = d.toString();
 			<div class="topnav">
 			<div id="myBtnContainer">
   				<button class="btn active" onclick="filterSelection('all')"> Show all</button>
-  				<button class="btn" onclick="filterSelection('Action')"> Action</button>
+  				<button class="btn" onclick="filterSelection('Drama')"> Drama</button>
+          <button class="btn" onclick="filterSelection('Action')"> Action</button>
   				<button class="btn" onclick="filterSelection('Romance')"> Romance</button>
   				<button class="btn" onclick="filterSelection('Comedy')"> Comedy</button>
   				<button class="btn" onclick="filterSelection('Adventure')"> Adventure</button>
@@ -41,42 +42,30 @@ document.getElementById("demo").innerHTML = d.toString();
 
 						<div class="column content">
 							<p><div class="container">
-  								<a href="daftarsl.html"><div class="filterDiv Action Fantasy">
-  								<img src="sl.jpg" width="100%" height="100%">Solo leveling</div></a>
-  								
-  								<a href="daftarts.html"><div class="filterDiv Comedy Fantasy">
-                  <img src="ts.jpg" width="100%" height="100%">Tensei Shitara Slime Datta Ken</div></a>
   						
-                  <a href="daftartfd.html"><div class="filterDiv Comedy Romance Adventure">
-                  <img src="tfd.jpg" width="100%" height="100%">Tales of Demons and Gods</div></a>
+                  <a href="daftarol.html"><abbr title="Overloard"><div class="filterDiv Fantasy" style="background-image: url('ol.jpg'); background-size: 100% 100%;"><div class="nama"><b>Overloard</b></div></div></abbr></a>
 
-                  <a href="cs.html"><div class="filterDiv">
-                  <img src="cs.jpg" width="100%" height="100%">Coming Soon</div></a>
+                  <a href="daftarsl.html"><abbr title="Solo leveling"><div class="filterDiv Action Fantasy" style="background-image: url('sl.jpg'); background-size: 100% 100%;"><div class="nama"><b>Solo leveling</b></div></div></abbr></a>
 
-                  <a href="cs.html"><div class="filterDiv">
-                  <img src="cs.jpg" width="100%" height="100%">Coming Soon</div></a>
+                  <a href="daftarsyk.html"><abbr title="Kono Yuusha ga Ore Tueee Kuse ni Shinchou Sugiru"><div class="filterDiv Comedy Adventure Fantasy" style="background-image: url('syk.jpg'); background-size: 100% 100%;"><div class="nama"><b>Shinchou Yuusha</b></div></div></abbr></a>
 
-                  <a href="cs.html"><div class="filterDiv">
-                  <img src="cs.jpg" width="100%" height="100%">Coming Soon</div></a>
-
-                  <a href="cs.html"><div class="filterDiv">
-                  <img src="cs.jpg" width="100%" height="100%">Coming Soon</div></a>
-
-                  <a href="cs.html"><div class="filterDiv">
-                  <img src="cs.jpg" width="100%" height="100%">Coming Soon</div></a>
-
-                  <a href="cs.html"><div class="filterDiv">
-                  <img src="cs.jpg" width="100%" height="100%">Coming Soon</div></a>
-
-                  <a href="cs.html"><div class="filterDiv">
-                  <img src="cs.jpg" width="100%" height="100%">Coming Soon</div></a>
+                  <a href="daftartfd.html"><abbr title="Tales of Demons and Gods"><div class="filterDiv Comedy Romance Adventure" style="background-image: url('tfd.jpg'); background-size: 100% 100%;"><div class="nama"><b>Tales of Demons and Gods</b></div></div></a>
                   
-                  <a href="cs.html"><div class="filterDiv">
-                  <img src="cs.jpg" width="100%" height="100%">Coming Soon</div></a>
-                  
-                  <a href="cs.html"><div class="filterDiv">
-                  <img src="cs.jpg" width="100%" height="100%">Coming Soon</div></a>
+                  <a href="daftarts.html"><abbr title="Tensei Shitara Slime Datta Ken"><div class="filterDiv Comedy Fantasy" style="background-image: url('ts.jpg'); background-size: 100% 100%;"><div class="nama"><b>Tensei Shitara Slime Datta Ken</b></div></div></a>
 
+                   <a href="cs.html"><abbr title="Belum Ada Bosqu"><div class="filterDiv" style="background-image: url('cs.jpg'); background-size: 100% 100%;"><div class="nama"><b>Coming Soon</b></div></div></abbr></a>
+
+                   <a href="cs.html"><abbr title="Belum Ada Bosqu"><div class="filterDiv" style="background-image: url('cs.jpg'); background-size: 100% 100%;"><div class="nama"><b>Coming Soon</b></div></div></abbr></a>
+
+                   <a href="cs.html"><abbr title="Belum Ada Bosqu"><div class="filterDiv" style="background-image: url('cs.jpg'); background-size: 100% 100%;"><div class="nama"><b>Coming Soon</b></div></div></abbr></a>
+
+                   <a href="cs.html"><abbr title="Belum Ada Bosqu"><div class="filterDiv" style="background-image: url('cs.jpg'); background-size: 100% 100%;"><div class="nama"><b>Coming Soon</b></div></div></abbr></a>
+
+                   <a href="cs.html"><abbr title="Belum Ada Bosqu"><div class="filterDiv" style="background-image: url('cs.jpg'); background-size: 100% 100%;"><div class="nama"><b>Coming Soon</b></div></div></abbr></a>
+
+                   <a href="cs.html"><abbr title="Belum Ada Bosqu"><div class="filterDiv Drama" style="background-image: url('cs.jpg'); background-size: 100% 100%;"><div class="nama"><b>Coming Soon</b></div></div></abbr></a>
+
+                   <a href="cs.html"><abbr title="Belum Ada Bosqu"><div class="filterDiv" style="background-image: url('cs.jpg'); background-size: 100% 100%;"><div class="nama"><b>Coming Soon</b></div></div></abbr></a>
 
               <br>
 						<br>
@@ -133,16 +122,24 @@ for (var i = 0; i < btns.length; i++) {
 
 		</div>
 			<div class="column menu">	
-			<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+      <div class="k"><center><p>
+      <b style="color: black;">..::LIST UPDATE::..</b>
+       </p></center></div>
+			<input type="search" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
       <div class="column menu2">
 			<ul id="myUL">
-        <li><a href="tfdc2.html">Tales of Demons and Gods vol: 2</a></li>
-        <li><a href="tfdc1.html">Tales of Demons and Gods vol: 1</a></li>
-        <li><a href="slc3.html">solo Leveling vol: 3</a></li>
-        <li><a href="tsc1.html">Tensei Shitara Slime Datta Ken vol: 1</a></li>
-        <li><a href="tscprolog.html">Tensei Shitara Slime Datta Ken vol: 0</a></li>
-        <li><a href="slc2.html">solo Leveling vol: 2</a></li>
-        <li><a href="slc1.html">Solo Leveling vol: 1</a></li>
+        <li><a href="olc1.3.html">Overloard vol: 1.3</a></li>
+        <li><a href="olc1.2.html">Overloard vol: 1.2</a></li>
+        <li><a href="olc1.1.html">Overloard vol: 1.1</a></li>
+        <li><a href="sykdc1.html">Shinchou Yuusha: Kono Yuusha ga Ore Tueee Kuse ni Shinchou Sugiru vol: 01</a></li>
+        <li><a href="sykcprolog.html">Shinchou Yuusha: Kono Yuusha ga Ore Tueee Kuse ni Shinchou Sugiru vol: 00</a></li>
+        <li><a href="tfdc2.html">Tales of Demons and Gods vol: 02</a></li>
+        <li><a href="tfdc1.html">Tales of Demons and Gods vol: 01</a></li>
+        <li><a href="slc3.html">solo Leveling vol: 03</a></li>
+        <li><a href="tsc1.html">Tensei Shitara Slime Datta Ken vol: 01</a></li>
+        <li><a href="tscprolog.html">Tensei Shitara Slime Datta Ken vol: 00</a></li>
+        <li><a href="slc2.html">solo Leveling vol: 02</a></li>
+        <li><a href="slc1.html">Solo Leveling vol: 01</a></li>
 
 			</ul>
 
